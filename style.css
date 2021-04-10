@@ -1,0 +1,307 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: #989C94;
+    border-bottom: 1px solid #253A69;
+}
+
+.logo{
+    position: absolute;
+    height: 63px;
+    width: 400px;
+    left: 10%;
+    padding-top: 30px;
+    font-family: Puritan;
+    font-weight: bold;
+    font-size: 22px;
+}
+.login{
+    display: flex;
+    position: absolute;
+    font-family: Puritan;
+    left: 58%;
+    top: 15px;
+}
+
+.login .login_email,.login .login_password{
+    padding-left: 10px;
+}
+
+.login .login_email .font,
+.login .login_password .font{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: #25291C;
+    font-family: Puritan;
+    font-weight: bold;
+}
+
+.forgotP{
+    font-size: 13px;
+    font: Bench-Nine;
+    padding-left: -45px;
+    font-weight: bold;
+    color: #25291C;
+}
+.login .login_email input,
+.login .login_password input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.login .login_email input{
+    font-family: Puritan;
+}
+
+.btn_login{
+    height: 28px;
+    width: 80px;
+    margin-left: 15px;
+    margin-top: 16px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: Puritan;
+    outline: none;
+    cursor: pointer;
+    color: #e3e7d3;
+    font-weight: bold;
+    background: #25291C;
+}
+
+.btn_login:hover{
+    background: #e6e49f;
+    color: #25291C;
+}
+
+section{
+    height: 870px;
+    width: 100%;
+    top: 80px;
+    background: #e3e7d3;
+    font-family: Bench-Nine;
+}
+
+.logo_body{
+    position: absolute;
+    left: 5%;
+    top: 12%;
+    width: 800px;
+    background: #BDC2BF;
+    border-radius: 4px;
+}
+
+.logo_body .logobdy{
+    padding-left: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    width: 700px;
+    height: 521px;
+    border: 1px solid-black;
+}
+.logo_body .btns{
+    padding-left: 335px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+.logo_body .font_color1{
+   padding-left: 5px;
+   height: 40px;
+   width: 70px;
+   font-family: Puritan;
+   font-size: 15px;
+   font-weight: bold;
+   background: #25291C;
+   color: #e3e7d3;
+   cursor: pointer;
+}
+
+.logo_body .font_color{
+    padding-left: 5px;
+    padding-top: 30px;
+    height: 40px;
+    width: 70px;
+    font-family: Puritan;
+    font-size: 15px;
+    font-weight: bold;
+    background: #25291C;
+    color: #e3e7d3;
+    cursor: pointer;
+}
+
+
+.logo_body .font_color:hover{
+    background: #e6e49f;
+    color: #25291C;
+}
+
+.register_form{
+    position: absolute;
+    left: 57%;
+}
+.register_form .signup{
+    font-size: 40px;
+    margin: 25px 0;
+    font-family: Puritan;
+    font-weight: bold;
+}
+.register_form .free{
+    margin: -15px 5px;
+    font-size: 18px; 
+    font-family: Puritan;
+
+}
+
+.register_form .signup input{
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+
+.register_form .signup .lastname{
+    margin-left: 5px;
+    font-family: Puritan;
+    font-weight: bold;
+}
+
+.register_form .signup .firstname{
+    font-family: Puritan;
+    font-weight: bold;
+}
+
+.register_form .signup .email,
+.register_form .signup .password1,
+.register_form .signup .password2{
+    margin-top: 20px;
+    width: 410px;
+    font-family: Puritan;
+    font-weight: bold;
+}
+
+
+.register_form .signup .birthday{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #25291C;
+}
+
+.register_form .signup .gender{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #25291C;
+}
+
+
+.register_form .signup .birth_date{
+    margin-top: 5px;
+}
+
+.register_form .signup .month,
+.register_form .signup .day,
+.register_form .signup .year{
+    height: 40px;
+    font-family: Puritan;
+    width: 100px;
+    font-size: 15px;
+}
+
+.register_form .signup .day,
+.register_form .signup .year{
+    margin-left: -5px;
+    font-family: Bench-Nine;
+}
+
+.register_form .signup .brth_hint{
+    font-size: 11px;
+    padding-left: 170px;
+    margin-top: -28px;
+    width: 150px;
+}
+
+.register_form .signup a{
+    text-decoration: none;
+}
+
+.register_form .signup a:hover{
+    text-decoration: underline;
+}
+
+.register_form .signup input[type="radio"]{
+    height: 15px;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+
+.register_form .signup .custom{
+    padding-right: 30px;
+}
+
+.register_form .signup input[value="female"]{
+    margin-left: -100px;
+}
+
+.register_form .signup .font{
+    margin-left: 57px;
+    margin-top: -27px;
+    font-size: 18px;
+    font-family: Puritan;
+    font-weight: bold;
+}
+
+.register_form .signup .font2{
+    margin-left: 160px;
+    font-size: 18px;
+    margin-top: -18px;
+    font-family: Puritan;
+    font-weight: bold;
+}
+
+.register_form .signup .font3{
+    margin-left: 310px;
+    font-size: 18px;
+    margin-top: -20px;
+    font-family: Puritan;
+    font-weight: bold;
+}
+
+.register_form .signup .agreement{
+    margin-top: 15px;
+    font-size: 15px;
+    width: 350px;
+    color: #25291C;
+}
+
+.register_form .signup .signup{
+    margin-top: 20px;
+    margin-left: 255px;
+    height: 38px;
+    border-radius: 50px 20px;
+    width: 170px;
+    background: #25291C;
+    color: #e3e7d3;
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #25291C;
+    cursor: pointer;
+    outline: none;
+}
+
+.register_form .signup .signup:hover{
+    background: #e6e49f;
+    color: #25291C;
+}
